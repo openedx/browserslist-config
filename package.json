@@ -4,7 +4,7 @@
   "description": "Shared browserslist config for Open edX",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edx/browserslist-config.git"
+    "url": "git@github.com:edx/browserslist-config.git"
   },
   "main": "index.js",
   "author": "edX",

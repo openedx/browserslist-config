@@ -1,6 +1,6 @@
 # `@edx/browserslist-config`
 
-[![license](https://img.shields.io/npm/l/@edx/frontend-build)](LICENSE)
+[![license](https://img.shields.io/npm/l/@edx/browserslist-config)](LICENSE)
 
 Shareable [browserslist](https://github.com/browserslist/browserslist) configuration for edX. See [documentation](https://github.com/browserslist/browserslist#shareable-configs) on shareable `browserslist` configurations for more details.
 
