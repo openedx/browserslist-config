@@ -1,8 +1,8 @@
 # `@edx/browserslist-config`
 
-[![license](https://img.shields.io/npm/l/@edx/paragon)](LICENSE)
+[![license](https://img.shields.io/npm/l/@edx/frontend-build)](LICENSE)
 
-Shareable [browserslist](https://github.com/browserslist/browserslist) configuration for edX.
+Shareable [browserslist](https://github.com/browserslist/browserslist) configuration for edX. See [documentation](https://github.com/browserslist/browserslist#shareable-configs) on shareable `browserslist` configurations for more details.
 
 ## Supported Browsers
 
