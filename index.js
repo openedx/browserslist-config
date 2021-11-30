@@ -7,6 +7,4 @@ module.exports = [
   'last 2 chromeandroid versions',
   'last 2 firefoxandroid versions',
   'last 2 ios versions',
-  // Node
-  'maintained node versions'
 ];
