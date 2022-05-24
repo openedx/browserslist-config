@@ -15,5 +15,14 @@
   },
   "bugs": {
     "url": "https://github.com/edx/browserslist-config/issues"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "supported": "node -e \"var bl = require('browserslist'); console.log(bl(require('./index')).join('\\n'));\""
+  },
+  "devDependencies": {
+    "browserslist": "4.20.3"
   }
 }
