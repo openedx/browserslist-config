@@ -1,10 +1,16 @@
-module.exports = [
-  'last 2 chrome versions',
-  'last 2 safari versions',
-  'last 2 edge versions',
-  'last 2 firefox versions',
-  // Mobile
-  'last 2 chromeandroid versions',
-  'last 2 firefoxandroid versions',
-  'last 2 ios versions',
+const desktop = [
+  'last 2 Chrome major versions',
+  'last 2 Firefox major versions',
+  'last 2 Safari major versions',
+  'last 2 Edge major versions',
 ];
+
+const mobile = [
+  'last 3 ChromeAndroid major versions',
+  'last 3 FirefoxAndroid major versions',
+  'last 3 iOS major versions',
+];
+
+const supportedBrowsers = desktop.concat(mobile);
+
+module.exports = supportedBrowsers;
