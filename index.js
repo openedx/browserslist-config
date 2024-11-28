@@ -15,9 +15,8 @@ const mobile = [
 // adding these is strongly recommended by browserslist, so we do so:
 // https://github.com/browserslist/browserslist?tab=readme-ov-file#best-practices
 const bestPractices = [
-  'last 2 versions',
-  'not dead',
-  '> 0.2%',
+  'last 2 versions and not dead',
+  '> 0.2% and not dead',
 ];
 
 module.exports = [
