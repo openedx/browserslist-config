@@ -1,6 +1,6 @@
 {
   "name": "@edx/browserslist-config",
-  "version": "1.0.0",
+  "version": "1.3.0",
   "description": "Shared browserslist config for Open edX",
   "repository": {
     "type": "git",
@@ -23,6 +23,6 @@
     "supported": "node -e \"var bl = require('browserslist'); console.log(bl(require('./index')).join('\\n'));\""
   },
   "devDependencies": {
-    "browserslist": "4.20.3"
+    "browserslist": "4.24.2"
   }
 }

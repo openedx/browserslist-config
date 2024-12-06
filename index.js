@@ -11,6 +11,16 @@ const mobile = [
   'last 3 iOS major versions',
 ];
 
-const supportedBrowsers = desktop.concat(mobile);
+// Other browsers are not officially supported by Open edX, but
+// adding these is strongly recommended by browserslist, so we do so:
+// https://github.com/browserslist/browserslist?tab=readme-ov-file#best-practices
+const bestPractices = [
+  'last 2 versions and not dead',
+  '> 0.2% and not dead',
+];
 
-module.exports = supportedBrowsers;
+module.exports = [
+  ...desktop,
+  ...mobile,
+  ...bestPractices,
+];
