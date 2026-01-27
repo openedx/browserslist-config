@@ -4,17 +4,17 @@
   "description": "Shared browserslist config for Open edX",
   "repository": {
     "type": "git",
-    "url": "git@github.com:edx/browserslist-config.git"
+    "url": "git+https://github.com/openedx/browserslist-config.git"
   },
   "main": "index.js",
   "author": "edX",
   "license": "AGPL-3.0",
-  "homepage": "https://github.com/edx/browserslist-config#readme",
+  "homepage": "https://github.com/openedx/browserslist-config#readme",
   "publishConfig": {
     "access": "public"
   },
   "bugs": {
-    "url": "https://github.com/edx/browserslist-config/issues"
+    "url": "https://github.com/openedx/browserslist-config/issues"
   },
   "files": [
     "index.js"
